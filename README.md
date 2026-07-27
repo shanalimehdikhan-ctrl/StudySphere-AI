@@ -1,6 +1,8 @@
 # StudySphere AI
 
 ## 📚 About
+![Alt text](<img width="604" height="376" alt="Screenshot 2026-07-27 232124" src="https://github.com/user-attachments/assets/0436b570-f850-42c1-9994-6c78ab0926c1" />
+)
 
 StudySphere AI is an AI-powered study assistant that helps students learn faster.
 
