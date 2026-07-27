@@ -3,7 +3,7 @@
 ## 📚 About
  
  
- <img src="images/<img width="604" height="376" alt="Screenshot 2026-07-27 232124" src="https://github.com/user-attachments/assets/6dbd0fed-084f-4020-97f8-50d8f1afff39" />" width="200" style="vertical-align:middle;"> 
+ <img src="images/<img width="604" height="376" alt="Screenshot 2026-07-27 232124" src="https://github.com/user-attachments/assets/6dbd0fed-084f-4020-97f8-50d8f1afff39" />
 
 
 
