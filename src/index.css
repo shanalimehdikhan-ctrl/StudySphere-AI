@@ -383,27 +383,3 @@
 .hljs-strong {
   font-weight: 700;
 }
-
-/* ===== KaTeX Final Fix ===== */
-
-.markdown-body .katex {
-  line-height: 1.45 !important;
-}
-
-.markdown-body .katex-display {
-  margin: 1rem 0;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.markdown-body .katex-display > .katex {
-  padding: 0.25rem 0;
-}
-
-.markdown-body .katex .mfrac {
-  vertical-align: middle;
-}
-
-.markdown-body .katex .vlist {
-  line-height: 1.45 !important;
-}

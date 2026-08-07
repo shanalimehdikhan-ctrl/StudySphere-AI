@@ -66,22 +66,5 @@ export function getAction(id: ActionConfig['id']): ActionConfig {
 }
 
 export function buildPrompt(action: ActionConfig, topic: string): string {
-  return `
-${action.promptTemplate.replace('{{topic}}', topic)}
-
-${MATH_FORMATTING_RULES}
-`;
+  return action.promptTemplate.replace('{{topic}}', topic);
 }
-const MATH_FORMATTING_RULES = `
-Formatting Rules:
-- Respond in valid Markdown.
-- Use Markdown headings (#, ##, ###) and bullet points where appropriate.
-- For ALL standalone mathematical equations, use display LaTeX:
-  $$ ... $$
-- For inline mathematical expressions, use:
-  $ ... $
-- Never leave unmatched $, $$, \\(, \\), \\[, or \\].
-- Ensure every fraction, square root, integral, summation, matrix and equation is valid LaTeX.
-- Never output incomplete LaTeX syntax.
-- Put each display equation on its own line.
-`;
